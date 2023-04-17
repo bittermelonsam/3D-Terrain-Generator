@@ -1,9 +1,18 @@
 {
-  "dependencies": {
-    "express": "^4.18.2",
-    "three": "^0.151.3"
+  "name": "solo-project",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
   },
   "devDependencies": {
-    "vite": "^4.2.1"
+    "vite": "^4.2.0"
+  },
+  "dependencies": {
+    "p5": "^1.6.0",
+    "three": "^0.151.3"
   }
 }
