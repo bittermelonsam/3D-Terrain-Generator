@@ -15,11 +15,6 @@ app.use(
 
 app.use(webpackHotMiddleware(compiler));
 
-app.get('/help', (req, res) => {
-  console.log('you did it!');
-  return res.status(200).send('This worked!');
-});
-
 app.listen(3000, () => {
   console.log('App listening on port 3000!');
 });
